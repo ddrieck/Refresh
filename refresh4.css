@@ -20,10 +20,12 @@ html[xmlns] .clearfix {
     height: 1%;
 }
 
-#small_logo {
-    float: left;
+
+section {
+    border-bottom: 1px solid gray;
 }
 
+/*----- Nav Element Styles -----*/
 nav {
     clear: right;
     margin-left: 50%;
@@ -47,13 +49,23 @@ nav a {
     margin-left: 2%;
 }
 
+#small_logo {
+    float: left;
+}
+
 header {
     width: 100%;
     border-bottom: 1px solid gray;
 }
 
+/*----- About Element Styles -----*/
+
+#about {
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
 #dispenser {
-    left: 20%;
+    margin-left: 20%;
     top: 25%;
     max-width: 18%;
     min-width: 10%;
@@ -62,8 +74,17 @@ header {
 }
 
 #desc {
+    position:absolute; 
+    top:50%; 
+    height:10em; 
+    margin-top:-5em;
     display: inline-block;
+    margin-left: 5%;
 }
+
+/*----- About Us Elements -----*/
+
+
 /* body {
     background-color: #ffffff;
     font-family: Gotham, Helvetica, Arial, sans-serif;

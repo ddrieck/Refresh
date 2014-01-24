@@ -160,9 +160,29 @@ header {
 
     .team_member p {
         display: block;
+        position: relative;
+        height: initial;
+        width: initial;
     }
 
     .team_member img {
         display: block;
+        margin-left: 30%;
+    }
+
+    #small_logo {
+        float: none;
+        margin-left: 45%;
+    }
+}
+@media (max-width: 550px) {
+    nav {
+        margin-left: initial;
+    }
+
+    nav li {
+        margin-left: initial;
+        display: block;
+        float: initial;
     }
 }

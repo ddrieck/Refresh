@@ -78,13 +78,11 @@ header {
 }
 
 #desc {
-    position:absolute; 
-    top:50%; 
-    height:10em; 
-    margin-top:-5em;
+    position: relative; 
     display: inline-block;
     margin-left: 5%;
 }
+
 
 /*----- About Us Elements -----*/
 #team h2 {
@@ -101,7 +99,7 @@ header {
 }
 
 .team_member p {
-    position:absolute;  
+    position:relative;  
     height:10em; 
     margin-left: 3%;
     display: inline-block;
